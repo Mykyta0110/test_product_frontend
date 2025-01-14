@@ -1,0 +1,43 @@
+li {
+    background-color: transparent;
+    color: #cccccc;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    min-width: 10%;
+    line-height: 30px;
+}
+
+li:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+    transform: scale(1.05); 
+    border-color: rgb(255, 255, 255); 
+    cursor: pointer; 
+}
+
+.discount {
+    color: rgb(255, 25, 25);
+    font-weight: bold;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cccccc;
+}
+
+
+ul {
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+}
